@@ -1,18 +1,12 @@
-Shell Terminal using System Calls
-
-AOS Assignment 2
-Lakshay Baijal 2024202006
-
-Custom Shell
+# Shell Terminal using System Calls
 
 [Screencast from 2024-09-09 02-39-28.webm](https://github.com/user-attachments/assets/2eeceea7-aa00-4f68-8fff-a6e62d3ef7c5)
 
 
-
-Overview
+## Overview
 This project is a custom shell implemented in C++. It replicates common shell functionalities, including directory navigation, process management, I/O redirection, and command history. The shell supports various built-in commands and allows for both foreground and background process execution.
 
-Features
+## Features
 1. Directory Navigation (CD)
 cd: Changes the current directory to the user's home directory.
 cd ~: Also changes to the user's home directory.
@@ -54,11 +48,16 @@ The history is stored in a file to persist between sessions.
 
 
 Compile the shell:
+```bash
 g++ -o shell shell.cpp builtins.cpp io_redirection.cpp
+```
 or
+```bash
 Make
+```
 
 Run the Shell:
+```bash
 ./shell
-
+```
 
